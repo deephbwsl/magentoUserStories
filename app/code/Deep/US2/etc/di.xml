@@ -5,6 +5,12 @@
     </type>
 
     <type name="Magento\Theme\Block\Html\Footer" >
-        <plugin name="On_Sale_Plugin" type="Deep\US2\Plugin\CopyRightTextPlugin"  sortOrder="10" disabled="false" />
+        <plugin name="Copy_Right_Plugin" type="Deep\US2\Plugin\CopyRightTextPlugin"  sortOrder="10" disabled="false" />
     </type>
+
+     <type name="Magento\Theme\Block\Html\Breadcrumbs">
+        <plugin name="Bread_crumb_Plugin" type="Deep\US2\Plugin\BreadcrumbPlugin" sortOrder="10" disabled="false"/>
+    </type>
+
+
 </config>
