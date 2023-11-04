@@ -3,4 +3,8 @@
     <type name="Magento\Catalog\Model\Product" >
         <plugin name="On_Sale_Plugin" type="Deep\US2\Plugin\OnSalePlugin"  sortOrder="10" disabled="false" />
     </type>
+
+    <type name="Magento\Theme\Block\Html\Footer" >
+        <plugin name="On_Sale_Plugin" type="Deep\US2\Plugin\CopyRightTextPlugin"  sortOrder="10" disabled="false" />
+    </type>
 </config>
