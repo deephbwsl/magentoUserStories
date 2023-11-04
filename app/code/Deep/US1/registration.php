@@ -6,4 +6,4 @@
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Deep_mod1', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Deep_US1', __DIR__);

@@ -7,8 +7,8 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
-        <route id="catalog" frontName="mod1">
-            <module name="Deep_mod1" />
+        <route id="dj" frontName="mod1">
+            <module name="Deep_US1" />
         </route>
     </router>
 </config>
