@@ -12,6 +12,6 @@ class Employee extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
 
     protected function _construct()
     {
-        $this->_init('table_name', 'entity_id');
+        $this->_init('employee_table', 'employee_id');
     }
 }
