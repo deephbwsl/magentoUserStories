@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="Deep_US9::menu_id" title="Menu" module="Deep_US9" sortOrder="10" action="frontname/controller/action" resource="Deep_US9::menu_id"/>
+        <add id="Deep_US9::menu_id" title="Menu" module="Deep_US9" sortOrder="10" resource="Deep_US9::menu_id"/>
 
-        <add id="Deep_US9::submenu_id" parent="Deep_US9::menu_id" title="Sub menu" module="Deep_US9" sortOrder="10" action="frontname/controller/action" resource="Deep_US9::menu_id"/>
+        <add id="Deep_US9::submenu_id" parent="Deep_US9::menu_id" title="Sub menu" module="Deep_US9" sortOrder="10" action="mod9/text/index" resource="Deep_US9::menu_id" />
     </menu>
 </config>

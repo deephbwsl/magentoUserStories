@@ -34,13 +34,18 @@ class Index extends \Magento\Framework\App\Action\Action
         
         if($flag == '1'){
             $resultPage->getConfig()->getTitle()->set(__($message));
-            $this->notify->addSuccessMessage(__('Text Displyed'));
+            $this->notify->addSuccessMessage(__('Text Displayed'));
         }
         else{
             $this->notify->addErrorMessage(__('Text Cant Display'));
 
         }
         $resultPage = $this->pageFactory->create();
+        
         return $resultPage;
     }
+
+   
+
+
 }
