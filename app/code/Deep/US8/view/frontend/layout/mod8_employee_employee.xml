@@ -3,9 +3,9 @@
     <body>
         <referenceContainer name="content">
             
-            <block class="Deep\US9\Block\Form" name="employee.form" template="Deep_US9::form.phtml" />
+            <block class="Deep\US8\Block\Form" name="employee.form" template="Deep_US8::form.phtml" />
 
-            <block class="Deep\US9\Block\Table" name="employee.table" template="Deep_US9::table.phtml" />
+            <block class="Deep\US8\Block\Table" name="employee.table" template="Deep_US8::table.phtml" />
             
         </referenceContainer>
     </body>

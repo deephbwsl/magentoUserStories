@@ -1,5 +1,5 @@
 <?php
-namespace Deep\US9\Model\ResourceModel\Employee;
+namespace Deep\US8\Model\ResourceModel\Employee;
 
 class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection
 {
@@ -14,6 +14,6 @@ class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\Ab
      */
     protected function _construct()
     {
-        $this->_init('Deep\US9\Model\Employee', 'Deep\US9\Model\ResourceModel\Employee');
+        $this->_init('Deep\US8\Model\Employee', 'Deep\US8\Model\ResourceModel\Employee');
     }
 }

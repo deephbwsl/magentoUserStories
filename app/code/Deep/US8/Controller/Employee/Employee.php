@@ -1,6 +1,6 @@
 <?php
 
-namespace Deep\US9\Controller\Employee;
+namespace Deep\US8\Controller\Employee;
 
 
 use Magento\Framework\App\Action\Action;
@@ -39,7 +39,7 @@ class Employee extends Action
                 // exit;
 
                 // Creating an instance of the Employee model
-                $employee = $this->objectManager->create('Deep\US9\Model\Employee');
+                $employee = $this->objectManager->create('Deep\US8\Model\Employee');
                 $employee->setData($postData);
                 $employee->save();
 

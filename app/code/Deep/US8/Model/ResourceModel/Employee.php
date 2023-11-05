@@ -1,5 +1,5 @@
 <?php
-namespace Deep\US9\Model\ResourceModel;
+namespace Deep\US8\Model\ResourceModel;
 
 class Employee extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
 {
