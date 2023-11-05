@@ -1,0 +1,22 @@
+<h3>Total Count of Employees <?= $block->getEmployeeCount() ?> </h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Employee ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php foreach ($block->getEmployeeData() as $employee): ?>
+            <tr>
+                <td><?= $employee->getEmployeeId() ?></td>
+                <td><?= $employee->getFirstName() ?></td>
+                <td><?= $employee->getLastName() ?></td>
+                <td><?= $employee->getEmailId() ?></td>
+            </tr>
+        <?php endforeach; ?>
+    </tbody>
+</table
