@@ -2,7 +2,7 @@
 namespace Deep\US8\Block;
 
 use Magento\Framework\View\Element\Template;
-use Deep\US9\Model\ResourceModel\Employee\Collection;
+use Deep\US8\Model\ResourceModel\Employee\Collection;
 
 class Table extends Template
 {

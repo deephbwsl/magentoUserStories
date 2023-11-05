@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+     <system>
+        <tab id="mod9" translate="label" sortOrder="200">
+           <label>Mod9</label>
+        </tab>
+        <section id="general1" translate="label" sortOrder="150" showInDefault="1" showInWebsite="1" showInStore="1">
+           <class>separator-top</class>
+           <label>General</label>
+           <tab>mod9</tab>
+           <resource>Dj_Rj::config_mod9</resource>
+
+           <group id="general2" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>General Configuration</label>
+
+                <field id="enable" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                     <label>Enable Text Field</label>
+                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+
+                <field id="text_input" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Text Input Field</label>
+                </field>
+          </group>
+       </section>
+     </system>
+</config>
