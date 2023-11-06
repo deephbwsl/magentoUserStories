@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <referenceContainer name="product.info.main" >
-        <block class="Deep\US5\Block\Message"  before="product.info.price" name="Mesasage" template="Deep_US5::Message.phtml" />        
+        <block class="Deep\US7\Block\Message"  before="product.info.price"
+        name="Mesasage" template="Deep_US7::Message.phtml" />        
     </referenceContainer>
     
 </config>

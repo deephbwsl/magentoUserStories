@@ -1,5 +1,5 @@
 <?php
-namespace Deep\US5\Block;
+namespace Deep\US7\Block;
 
 class Message extends \Magento\Framework\View\Element\Template
 {
