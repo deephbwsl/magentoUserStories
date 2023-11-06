@@ -3,7 +3,8 @@
     <event name="catalog_controller_product_view">
         <observer name="log_product_name" instance="Deep\US3\Observer\LogProductName"/>
     </event>
-    <event name="controller_action_postdispatch">
+
+    <event name="controller_front_send_response_before">
         <observer name="log_page_html" instance="Deep\US3\Observer\LogPageHtml" />
     </event>
     
